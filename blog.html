@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford university web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li>><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Program For 2024</h1>
+    </section>
+    <!-- ------- blog page content------ -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg" alt="">
+                <h2>Our Certificate & Online Program For 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores, perspiciatis accusamus
+                    delectus non laborum, quo ipsa itaque eius magni atque a deleniti incidunt debitis culpa illum
+                    facilis! Vel quisquam consequatur molestiae eum dolor? Possimus quas exercitationem tempore corrupti
+                    numquam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sit nesciunt consectetur aperiam
+                    porro dignissimos accusamus saepe corporis dolorem ut debitis voluptates distinctio quidem, ex quod
+                    sunt voluptatem perferendis cupiditate quam aliquam nihil illo sed. Aut, exercitationem totam!
+                    Sapiente ab quis quas rerum aperiam molestiae maiores itaque, recusandae animi quo!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti voluptates blanditiis in odio
+                    voluptatibus ullam, ad, eaque dignissimos magni sint veritatis, saepe assumenda laborum enim magnam
+                    necessitatibus! Nulla, ex? Ducimus itaque sint expedita atque temporibus iure laudantium, nulla
+                    earum! Atque, vero quis reprehenderit aspernatur quod eum in aut fugit earum!</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="Email" placeholder="Enter Email">
+                            <textarea  rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                        </form>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+
+                <h3>post-graduation</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Network Marketing</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Stock Marketing</span>
+                    <span>21</span>
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+    <!-- ------footer---- -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, quasi.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>Made by <i class="fa-regular fa-heart"></i> Devesh..</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ---------js for toggle menu-------- -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
